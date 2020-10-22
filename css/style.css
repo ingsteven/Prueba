@@ -1,0 +1,71 @@
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+img{
+    max-width: 100%;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;   
+}
+h3{
+    font-size: 2.8rem;
+    text-align: center;
+}
+.encabezado{
+    background-image: url(../img/encabezado.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 40rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.encabezado::after{
+    content: '';
+    background-color: rgba(0,0,0,.3);
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+.contenido-encabezado{
+    color: #ffffff;
+    z-index: 1;    
+}
+.principal{
+    max-width: 120rem; 
+    margin: 0 auto;
+}
+.presentacion{
+    margin-top: 2rem;
+}
+.imagen-motos{
+    display: flex;
+    justify-content: space-between;
+}
+.imagen{
+    flex-basis: calc(33.3% - 1rem);
+    text-align: justify;
+}
+.foot{
+    background-color: #1e9c7d;
+    padding: 30px;
+    font-size: 2.2rem;
+    color: #ffffff;
+    text-align: center;
+}
