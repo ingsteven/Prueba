@@ -1,0 +1,5 @@
+En este archivo se modifico por la rama steven
+
+tambien se modifico la imagen de la categoria GP
+
+y por ultimo se realizara la fusion de las ramas por el metodo merge
